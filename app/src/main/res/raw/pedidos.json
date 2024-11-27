@@ -1,0 +1,50 @@
+[
+    {
+      "usuarioCorreo": "usuario1@gmail.com",
+      "bocadillo": {
+        "dia": "Martes",
+        "nombre": "Bocadillo de Lomo Adobado",
+        "descripcion": "Un bocadillo delicioso de carne",
+        "ingredientes": "pan, lomo adobado, lechuga, queso",
+        "tipo": "Caliente",
+        "diaDeLaSemana": 2
+      },
+      "fecha": "2024-11-26"
+    },
+    {
+      "usuarioCorreo": "usuario1@gmail.com",
+      "bocadillo": {
+        "dia": "Lunes",
+        "nombre": "Bocadillo de Jamón",
+        "descripcion": "Un bocadillo delicioso de jamón serrano",
+        "ingredientes": "pan, jamón serrano, aceite",
+        "tipo": "Frio",
+        "diaDeLaSemana": 3
+      },
+      "fecha": "2024-11-25"
+    },
+    {
+      "usuarioCorreo": "prueba@gmail.com",
+      "bocadillo": {
+        "dia": "Martes",
+        "nombre": "Bocadillo de Lomo Adobado",
+        "descripcion": "Un bocadillo delicioso de carne",
+        "ingredientes": "pan, lomo adobado, lechuga, queso",
+        "tipo": "Caliente",
+        "diaDeLaSemana": 2
+      },
+      "fecha": "2024-11-26"
+    },
+    {
+      "usuarioCorreo": "prueba@gmail.com",
+      "bocadillo": {
+        "dia": "Lunes",
+        "nombre": "Bocadillo de Jamón",
+        "descripcion": "Un bocadillo delicioso de jamón serrano",
+        "ingredientes": "pan, jamón serrano, aceite",
+        "tipo": "Frio",
+        "diaDeLaSemana": 3
+      },
+      "fecha": "2024-11-25"
+    }
+]

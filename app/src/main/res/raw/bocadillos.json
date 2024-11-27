@@ -1,0 +1,83 @@
+[
+{
+  "dia": "Lunes",
+  "nombre": "Bocadillo de Jamón",
+  "descripcion": "Un bocadillo delicioso de jamón serrano",
+  "ingredientes": "pan, jamón serrano, aceite",
+  "tipo": "Frio",
+  "diaDeLaSemana": 2
+},
+{
+  "dia": "Martes",
+  "nombre": "Bocadillo de Queso",
+  "descripcion": "Un bocadillo delicioso de queso",
+  "ingredientes": "pan, queso, aceite",
+  "tipo": "Frio",
+  "diaDeLaSemana": 3
+  },
+  {
+    "dia": "Miercoles",
+    "nombre": "Bocadillo de Lomo",
+    "descripcion": "Un bocadillo delicioso de lomo",
+    "ingredientes": "pan, lomo, aceite",
+    "tipo": "Frio",
+    "diaDeLaSemana": 4
+  },
+  {
+   "dia": "Jueves",
+   "nombre": "Bocadillo de Atún",
+   "descripcion": "Un bocadillo delicioso de atún",
+   "ingredientes": "pan, atún",
+   "tipo": "Frio",
+   "diaDeLaSemana": 5
+  },
+  {
+  "dia": "Viernes",
+   "nombre": "Bocadillo de Ensaladilla",
+   "descripcion": "Un bocadillo delicioso de ensaladilla",
+   "ingredientes": "pan, mayonesa, patata, atún, huevo, variantes",
+   "tipo": "Frio",
+   "diaDeLaSemana": 6
+  },
+  {
+    "dia": "Lunes",
+    "nombre": "Bocadillo de Pollo",
+    "descripcion": "Un bocadillo delicioso de pollo",
+    "ingredientes": "pan, pechuga de pollo, lechuga, queso",
+    "tipo": "Caliente",
+    "diaDeLaSemana": 2
+
+  },
+  {
+    "dia": "Martes",
+    "nombre": "Bocadillo de Lomo Adobado",
+    "descripcion": "Un bocadillo delicioso de carne",
+    "ingredientes": "pan, lomo adobado, lechuga, queso",
+    "tipo": "Caliente",
+    "diaDeLaSemana": 3
+  },
+  {
+    "dia": "Miercoles",
+    "nombre": "Bocadillo de Pechuga Empanada",
+    "descripcion": "Un bocadillo delicioso de pechuga empanada",
+    "ingredientes": "pan, pechuga empanada, lechuga, mayonesa",
+    "tipo": "Caliente",
+    "diaDeLaSemana": 4
+  },
+  {
+    "dia": "Jueves",
+    "nombre": "Bocadillo de Calamares",
+    "descripcion": "Un bocadillo delicioso de calamares a la romana",
+    "ingredientes": "pan, calamares a la romana, mayonesa, lechuga",
+    "tipo": "Caliente",
+    "diaDeLaSemana": 5
+  },
+  {
+    "dia": "Viernes",
+    "nombre": "Bocadillo de Longaniza Blanca",
+    "descripcion": "Un bocadillo delicioso de longaniza blanca",
+    "ingredientes": "pan, longaniza blanca, ketchup",
+    "tipo": "Caliente",
+    "diaDeLaSemana": 6
+  }
+]

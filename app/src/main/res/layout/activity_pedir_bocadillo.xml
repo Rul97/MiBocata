@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paredblanca"
+    tools:context=".PedirBocadillos">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/cabecera"
+        android:layout_width="411dp"
+        android:layout_height="105dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="88dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/irish_grover"
+        android:orientation="vertical"
+        android:text="MI \nBOCATA"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/cabecera"
+        app:layout_constraintEnd_toEndOf="@+id/cabecera"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/cabecera"
+        app:layout_constraintTop_toTopOf="@+id/cabecera"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="SELECCIONA TU BOCADILLO."
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/cabecera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/cabecera"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/contenedor_bocadillo_frio"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:alpha="0.8"
+        android:background="#37C94D"
+        app:layout_constraintBottom_toTopOf="@+id/contenedor_bocadillo_caliente"
+        app:layout_constraintEnd_toEndOf="@+id/contenedor_bocadillo_caliente"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cabecera"
+        app:layout_constraintVertical_bias="0.2"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize25Percent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/contenedor_bocadillo_caliente"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="84dp"
+        android:alpha="0.8"
+        android:background="#F18061"
+        app:layout_constraintBottom_toTopOf="@+id/navegacion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contenedor_bocadillo_frio"
+        app:layout_constraintVertical_bias="0.5"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize25Percent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/irish_grover"
+        android:text="BOCADILLO FRIO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/contenedor_bocadillo_frio"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/contenedor_bocadillo_frio"
+        app:layout_constraintTop_toTopOf="@+id/contenedor_bocadillo_frio" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/irish_grover"
+        android:text="BOCADILLO CALIENTE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/contenedor_bocadillo_caliente"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="@+id/contenedor_bocadillo_caliente"
+        app:layout_constraintTop_toTopOf="@+id/contenedor_bocadillo_caliente" />
+
+    <ListView
+        android:id="@+id/lista_bocadillos_frios"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/contenedor_bocadillo_frio"
+        app:layout_constraintEnd_toEndOf="@+id/contenedor_bocadillo_frio"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="@+id/contenedor_bocadillo_frio"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <ListView
+        android:id="@+id/lista_bocadillos_calientes"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/contenedor_bocadillo_caliente"
+        app:layout_constraintEnd_toEndOf="@+id/contenedor_bocadillo_caliente"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/contenedor_bocadillo_caliente"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/navegacion"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="3"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contenedor_bocadillo_caliente">
+
+        <ImageView
+            android:id="@+id/menu_inicio"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/sandwich" />
+
+        <ImageView
+            android:id="@+id/historial"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/historia" />
+
+        <ImageView
+            android:id="@+id/perfil"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/avatar" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+[
+  {
+    "correo": "prueba@gmail.com",
+    "contrasena": "prueba",
+    "nombre": "Prueba",
+    "direccion": "Calle de los testeos nº 3",
+    "telefono": "654187958",
+    "saldo": 15.00
+  },
+  {
+    "correo": "usuario1@gmail.com",
+    "contrasena": "usu1",
+    "nombre": "Usuario1",
+    "direccion": "Calle de los flamencos",
+    "telefono": "659898542",
+    "saldo": 25.00
+  },
+  {
+    "correo": "q",
+    "contrasena": "q",
+    "nombre": "q",
+    "direccion": "q",
+    "telefono": "q",
+    "saldo": 25.00
+  }
+]
